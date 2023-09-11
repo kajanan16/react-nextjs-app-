@@ -35,8 +35,6 @@ export default function App({Component, pageProps}: AppProps) {
                     </Menu>
                     <div>
                         <ShoppingCartOutlined style={{fontSize: '30px', color: '#08c'}}/>
-                        {/*<Button type="primary" s>Sign in</Button>*/}
-                        {/*<Button>Sign up</Button>*/}
                     </div>
                 </Header>
 
@@ -44,9 +42,7 @@ export default function App({Component, pageProps}: AppProps) {
 
                 </Content>
                 <Component {...pageProps} />
-                <Footer style={{textAlign: 'center', position: "sticky", bottom: "0"}}>Product Application ©2023 Created
-                    by
-                    Kajanan</Footer>
+
 
             </Layout>
 
